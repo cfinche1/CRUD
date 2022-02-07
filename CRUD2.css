@@ -1,0 +1,18 @@
+body {background-color: antiquewhite;
+}
+
+h2 {color: darkred;
+font-weight: bold;
+}
+
+.card-header {
+    background-color: lightgrey;
+}
+
+p {
+    background-color: lightgoldenrodyellow;
+}
+
+.card-body {
+    background-color: burlywood;
+}

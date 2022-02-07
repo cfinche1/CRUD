@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog List</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="CRUD-array.css">
+</head>
+<body class="container">
+    
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-breed-name">Dog Breed</label>
+                        <input type="text" class="form-control" id="new-breed-name">
+                    </div>
+                </div>
+            </div> <br>
+            <div>
+                <button id="new-breed" class="btn btn-secondary form-control">Create</button>
+            </div>
+        </div>
+    </div> <br>
+
+    <div id="breeds">
+
+    </div>
+
+    <script src="CRUD-array.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {background-color: aqua;}
+
+.card {background-color: blue;}
+
+label {
+    text-decoration-color: black;
+    font-weight: bold;
+}
+
+#breeds {
+    background-color: lightblue;
+}
